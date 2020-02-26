@@ -31,9 +31,11 @@ L Device:D D5
 U 1 1 5E461CD9
 P 5750 10550
 F 0 "D5" H 5750 10650 50  0000 C CNN
-F 1 "D" H 5750 10450 50  0000 C CNN
+F 1 "6A2" H 5750 10450 50  0000 C CNN
 F 2 "" H 5750 10550 50  0001 C CNN
 F 3 "~" H 5750 10550 50  0001 C CNN
+F 4 "200V Peak Reverse Voltage, 140VRMS max, 200V max DC blocking voltage, 6A Max Avg forward rectified current, peak foward surge current = 400A 8.3ms single half sine wave, max instantaneous forward voltage @6A DC = 0.9V, max DC reverse current @rating blocking voltage, 10uA@+25C, 100uA@+100C" H 5750 10550 50  0001 C CNN "Characteristics"
+F 5 "power diode" H 5750 10550 50  0001 C CNN "Description"
 	1    5750 10550
 	-1   0    0    1   
 $EndComp
@@ -44,9 +46,11 @@ L Device:D D3
 U 1 1 5E4633C7
 P 5750 10800
 F 0 "D3" H 5750 10900 50  0000 C CNN
-F 1 "D" H 5750 10700 50  0000 C CNN
+F 1 "6A2" H 5750 10700 50  0000 C CNN
 F 2 "" H 5750 10800 50  0001 C CNN
 F 3 "~" H 5750 10800 50  0001 C CNN
+F 4 "200V Peak Reverse Voltage, 140VRMS max, 200V max DC blocking voltage, 6A Max Avg forward rectified current, peak foward surge current = 400A 8.3ms single half sine wave, max instantaneous forward voltage @6A DC = 0.9V, max DC reverse current @rating blocking voltage, 10uA@+25C, 100uA@+100C" H 5750 10800 50  0001 C CNN "Characteristics"
+F 5 "power diode" H 5750 10800 50  0001 C CNN "Description"
 	1    5750 10800
 	1    0    0    1   
 $EndComp
@@ -62,9 +66,11 @@ L Device:D D4
 U 1 1 5E464C20
 P 5750 10300
 F 0 "D4" H 5750 10400 50  0000 C CNN
-F 1 "D" H 5750 10200 50  0000 C CNN
+F 1 "6A2" H 5750 10200 50  0000 C CNN
 F 2 "" H 5750 10300 50  0001 C CNN
 F 3 "~" H 5750 10300 50  0001 C CNN
+F 4 "200V Peak Reverse Voltage, 140VRMS max, 200V max DC blocking voltage, 6A Max Avg forward rectified current, peak foward surge current = 400A 8.3ms single half sine wave, max instantaneous forward voltage @6A DC = 0.9V, max DC reverse current @rating blocking voltage, 10uA@+25C, 100uA@+100C" H 5750 10300 50  0001 C CNN "Characteristics"
+F 5 "power diode" H 5750 10300 50  0001 C CNN "Description"
 	1    5750 10300
 	1    0    0    1   
 $EndComp
@@ -262,9 +268,11 @@ L Device:D D7
 U 1 1 5E47BEDA
 P 5300 9350
 F 0 "D7" H 5300 9134 50  0000 C CNN
-F 1 "D" H 5300 9225 50  0000 C CNN
+F 1 "6A2" H 5300 9225 50  0000 C CNN
 F 2 "" H 5300 9350 50  0001 C CNN
 F 3 "~" H 5300 9350 50  0001 C CNN
+F 4 "200V Peak Reverse Voltage, 140VRMS max, 200V max DC blocking voltage, 6A Max Avg forward rectified current, peak foward surge current = 400A 8.3ms single half sine wave, max instantaneous forward voltage @6A DC = 0.9V, max DC reverse current @rating blocking voltage, 10uA@+25C, 100uA@+100C" H 5300 9350 50  0001 C CNN "Characteristics"
+F 5 "power diode" H 5300 9350 50  0001 C CNN "Description"
 	1    5300 9350
 	-1   0    0    1   
 $EndComp
@@ -439,9 +447,11 @@ L Device:D D6
 U 1 1 5E464C19
 P 5750 10050
 F 0 "D6" H 5750 10150 50  0000 C CNN
-F 1 "D" H 5750 9950 50  0000 C CNN
+F 1 "6A2" H 5750 9950 50  0000 C CNN
 F 2 "" H 5750 10050 50  0001 C CNN
 F 3 "~" H 5750 10050 50  0001 C CNN
+F 4 "200V Peak Reverse Voltage, 140VRMS max, 200V max DC blocking voltage, 6A Max Avg forward rectified current, peak foward surge current = 400A 8.3ms single half sine wave, max instantaneous forward voltage @6A DC = 0.9V, max DC reverse current @rating blocking voltage, 10uA@+25C, 100uA@+100C" H 5750 10050 50  0001 C CNN "Characteristics"
+F 5 "power diode" H 5750 10050 50  0001 C CNN "Description"
 	1    5750 10050
 	-1   0    0    1   
 $EndComp
@@ -1297,7 +1307,7 @@ U 1 1 5E4D0F62
 P 8850 12650
 F 0 "U6" H 8850 12850 50  0000 L CNN
 F 1 "MC4558CN" H 8850 12450 50  0000 L CNN
-F 2 "" H 8850 12650 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 8850 12650 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/rc4558.pdf" H 8850 12650 50  0001 C CNN
 	1    8850 12650
 	1    0    0    -1  
@@ -1308,7 +1318,7 @@ U 2 1 5E4D4C5C
 P 10200 10350
 F 0 "U6" H 10200 10717 50  0000 C CNN
 F 1 "MC4558CN" H 10200 10626 50  0000 C CNN
-F 2 "" H 10200 10350 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 10200 10350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/rc4558.pdf" H 10200 10350 50  0001 C CNN
 	2    10200 10350
 	1    0    0    -1  
@@ -1319,7 +1329,7 @@ U 1 1 5E4E5C9A
 P 3750 15850
 F 0 "U2" H 3750 16217 50  0000 C CNN
 F 1 "MC4558CN" H 3750 16126 50  0000 C CNN
-F 2 "" H 3750 15850 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 3750 15850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/rc4558.pdf" H 3750 15850 50  0001 C CNN
 	1    3750 15850
 	1    0    0    -1  
@@ -1330,7 +1340,7 @@ U 2 1 5E4E5CA0
 P 3550 18350
 F 0 "U2" H 3550 18550 50  0000 L CNN
 F 1 "MC4558CN" H 3550 18150 50  0000 L CNN
-F 2 "" H 3550 18350 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 3550 18350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/rc4558.pdf" H 3550 18350 50  0001 C CNN
 	2    3550 18350
 	1    0    0    -1  
@@ -1341,7 +1351,7 @@ U 1 1 5E4EC19F
 P 5650 6050
 F 0 "U1" H 5650 6250 50  0000 L CNN
 F 1 "MC4558CN" H 5650 5850 50  0000 L CNN
-F 2 "" H 5650 6050 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 5650 6050 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/rc4558.pdf" H 5650 6050 50  0001 C CNN
 	1    5650 6050
 	1    0    0    1   
@@ -1352,7 +1362,7 @@ U 2 1 5E4EC1A5
 P 3900 7050
 F 0 "U1" H 3900 7250 50  0000 L CNN
 F 1 "MC4558CN" H 3900 6850 50  0000 L CNN
-F 2 "" H 3900 7050 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 3900 7050 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/rc4558.pdf" H 3900 7050 50  0001 C CNN
 	2    3900 7050
 	-1   0    0    1   
@@ -1363,7 +1373,7 @@ U 3 1 5E4EC1AB
 P 3050 5700
 F 0 "U1" H 3050 5900 50  0000 L CNN
 F 1 "MC4558CN" H 3050 5500 50  0000 L CNN
-F 2 "" H 3050 5700 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 3050 5700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/rc4558.pdf" H 3050 5700 50  0001 C CNN
 	3    3050 5700
 	1    0    0    -1  
@@ -1716,12 +1726,12 @@ $EndComp
 Text Notes 7450 7150 0    50   ~ 0
 Non Standard 9 pin  mini DIN
 $Comp
-L SW-Texas:LM1036 U?
+L SW-Texas:LM1036 U3
 U 1 1 5E52540A
 P 9450 2400
-F 0 "U?" H 9700 2950 50  0000 C CNN
+F 0 "U3" H 9700 2950 50  0000 C CNN
 F 1 "LM1036" H 9050 2950 50  0000 C CNN
-F 2 "" H 10050 2300 50  0001 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm" H 10050 2300 50  0001 C CNN
 F 3 "" H 8650 2350 50  0001 C CNN
 	1    9450 2400
 	1    0    0    -1  
@@ -1969,7 +1979,7 @@ U 3 1 5E4E5CA6
 P 1500 16900
 F 0 "U2" H 1500 17100 50  0000 L CNN
 F 1 "MC4558CN" H 1500 16700 50  0000 L CNN
-F 2 "" H 1500 16900 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 1500 16900 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/rc4558.pdf" H 1500 16900 50  0001 C CNN
 	3    1500 16900
 	1    0    0    -1  
@@ -1980,7 +1990,7 @@ U 3 1 5E4D8946
 P 10800 12800
 F 0 "U6" H 10800 13000 50  0000 L CNN
 F 1 "MC4558CN" H 10800 12600 50  0000 L CNN
-F 2 "" H 10800 12800 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 10800 12800 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/rc4558.pdf" H 10800 12800 50  0001 C CNN
 	3    10800 12800
 	1    0    0    -1  
