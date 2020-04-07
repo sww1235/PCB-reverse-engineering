@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name SW-ST)(type KiCad)(uri ${KISWGITHUB}/SW-ST.pretty)(options "")(descr ""))
+)

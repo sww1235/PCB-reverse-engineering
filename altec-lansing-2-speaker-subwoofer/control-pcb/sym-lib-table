@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name SW-gElectroMech)(type Legacy)(uri ${KISWGITHUB}/SW-gElectroMech.lib)(options "")(descr ""))
+  (lib (name SW-power)(type Legacy)(uri ${KISWGITHUB}/SW-power.lib)(options "")(descr ""))
+  (lib (name SW-con)(type Legacy)(uri ${KISWGITHUB}/SW-con.lib)(options "")(descr ""))
+)
