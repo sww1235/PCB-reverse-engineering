@@ -679,4 +679,96 @@ Wire Wire Line
 Connection ~ 6900 1500
 Wire Wire Line
 	6900 1500 6900 1550
+$Comp
+L Device:R_Small_US R61
+U 1 1 5E9611AB
+P 7800 2150
+F 0 "R61" V 7595 2150 50  0000 C CNN
+F 1 "39kΩ 2% 0.25W" V 7686 2150 50  0000 C CNN
+F 2 "" H 7800 2150 50  0001 C CNN
+F 3 "~" H 7800 2150 50  0001 C CNN
+	1    7800 2150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7300 1750 7300 1850
+Wire Wire Line
+	7300 1850 7800 1850
+Wire Wire Line
+	7800 1850 7800 1900
+$Comp
+L Device:R_Small_US R45
+U 1 1 5E9675B4
+P 8350 2150
+F 0 "R45" V 8145 2150 50  0000 C CNN
+F 1 "100Ω 5% 0.25W" V 8236 2150 50  0000 C CNN
+F 2 "" H 8350 2150 50  0001 C CNN
+F 3 "~" H 8350 2150 50  0001 C CNN
+	1    8350 2150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7800 1900 8350 1900
+Wire Wire Line
+	8350 1900 8350 2050
+Connection ~ 7800 1900
+Wire Wire Line
+	7800 1900 7800 2050
+Wire Wire Line
+	8350 2250 8350 4050
+Wire Wire Line
+	8350 4050 6850 4050
+Wire Wire Line
+	5400 4050 5400 3850
+Wire Wire Line
+	6850 3100 6850 4050
+Connection ~ 6850 4050
+Wire Wire Line
+	6850 4050 5400 4050
+$Comp
+L Device:Jumper_NC_Small J10
+U 1 1 5E96DA6D
+P 7800 2550
+F 0 "J10" H 7800 2671 50  0000 C CNN
+F 1 "~" H 7800 2671 50  0000 C CNN
+F 2 "" H 7800 2550 50  0001 C CNN
+F 3 "~" H 7800 2550 50  0001 C CNN
+	1    7800 2550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7800 2450 7800 2250
+$Comp
+L Amplifier_Operational:NJM4556A U?
+U 1 1 5E972E09
+P 7500 4550
+F 0 "U?" H 7500 4917 50  0000 C CNN
+F 1 "NJM4556A" H 7500 4826 50  0000 C CNN
+F 2 "" H 7500 4550 50  0001 C CNN
+F 3 "http://www.njr.com/semicon/PDF/NJM4556A_E.pdf" H 7500 4550 50  0001 C CNN
+	1    7500 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:NJM4556A U?
+U 2 1 5E97436F
+P 8750 4700
+F 0 "U?" H 8750 5067 50  0000 C CNN
+F 1 "NJM4556A" H 8750 4976 50  0000 C CNN
+F 2 "" H 8750 4700 50  0001 C CNN
+F 3 "http://www.njr.com/semicon/PDF/NJM4556A_E.pdf" H 8750 4700 50  0001 C CNN
+	2    8750 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:NJM4556A U?
+U 3 1 5E975638
+P 6400 4650
+F 0 "U?" H 6358 4696 50  0000 L CNN
+F 1 "NJM4556A" H 6358 4605 50  0000 L CNN
+F 2 "" H 6400 4650 50  0001 C CNN
+F 3 "http://www.njr.com/semicon/PDF/NJM4556A_E.pdf" H 6400 4650 50  0001 C CNN
+	3    6400 4650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
