@@ -19,4 +19,5 @@
   (lib (name Amplifier_Instrumentation)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Amplifier_Instrumentation.lib)(options "")(descr ""))
   (lib (name Amplifier_Operational)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Amplifier_Operational.lib)(options "")(descr ""))
   (lib (name Amplifier_Video)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Amplifier_Video.lib)(options "")(descr ""))
+  (lib (name Mechanical)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Mechanical.lib)(options "")(descr ""))
 )
