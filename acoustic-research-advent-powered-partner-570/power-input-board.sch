@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 3 5
 Title ""
 Date ""
 Rev ""
@@ -13,4 +13,285 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L Connector_Generic:Conn_01x04 SK1
+U 1 1 6580F43B
+P 2100 1900
+F 0 "SK1" H 2018 1475 50  0000 C CNN
+F 1 "AC Out" H 2018 1566 50  0000 C CNN
+F 2 "" H 2100 1900 50  0001 C CNN
+F 3 "~" H 2100 1900 50  0001 C CNN
+	1    2100 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small_US R23
+U 1 1 658101DE
+P 5450 2350
+F 0 "R23" H 5518 2396 50  0000 L CNN
+F 1 "2k2Ω 5% 0.25W" H 5518 2305 50  0000 L CNN
+F 2 "" H 5450 2350 50  0001 C CNN
+F 3 "~" H 5450 2350 50  0001 C CNN
+	1    5450 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C19
+U 1 1 65811FCE
+P 5100 3250
+F 0 "C19" H 5008 3296 50  0000 R CNN
+F 1 "47nF 20%" H 5008 3205 50  0000 R CNN
+F 2 "" H 5100 3250 50  0001 C CNN
+F 3 "~" H 5100 3250 50  0001 C CNN
+	1    5100 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 65812993
+P 5400 3250
+F 0 "C1" H 5492 3296 50  0000 L CNN
+F 1 "1nF" H 5492 3205 50  0000 L CNN
+F 2 "" H 5400 3250 50  0001 C CNN
+F 3 "~" H 5400 3250 50  0001 C CNN
+	1    5400 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D14
+U 1 1 65812BED
+P 2650 4500
+F 0 "D14" H 2650 4716 50  0000 C CNN
+F 1 "A465401" H 2650 4625 50  0000 C CNN
+F 2 "" H 2650 4500 50  0001 C CNN
+F 3 "~" H 2650 4500 50  0001 C CNN
+	1    2650 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NC_Small J24
+U 1 1 6581408D
+P 6800 2500
+F 0 "J24" H 6800 2712 50  0000 C CNN
+F 1 "DNP" H 6800 2621 50  0000 C CNN
+F 2 "" H 6800 2500 50  0001 C CNN
+F 3 "~" H 6800 2500 50  0001 C CNN
+	1    6800 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth_Protective #PWR?
+U 1 1 65814E46
+P 7350 2600
+F 0 "#PWR?" H 7600 2350 50  0001 C CNN
+F 1 "Earth_Protective" H 7800 2450 50  0001 C CNN
+F 2 "" H 7350 2500 50  0001 C CNN
+F 3 "~" H 7350 2500 50  0001 C CNN
+	1    7350 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 2500 7000 2500
+Wire Wire Line
+	7350 2500 7350 2600
+$Comp
+L Connector_Generic:Conn_01x06 J?
+U 1 1 6581CAE7
+P 1900 4200
+AR Path="/5E8CC546/6581CAE7" Ref="J?"  Part="1" 
+AR Path="/5E8CC7CC/6581CAE7" Ref="J?"  Part="1" 
+F 0 "J?" H 1818 4617 50  0000 C CNN
+F 1 "JUMPER_TO_AMP_BOARD" H 1818 4526 50  0000 C CNN
+F 2 "" H 1900 4200 50  0001 C CNN
+F 3 "~" H 1900 4200 50  0001 C CNN
+	1    1900 4200
+	-1   0    0    -1  
+$EndComp
+Text Notes 1800 4100 2    50   ~ 0
+PIN 6 is White Stripe
+Wire Wire Line
+	2100 4400 2200 4400
+Wire Wire Line
+	2200 4400 2200 4500
+Wire Wire Line
+	2200 4500 2100 4500
+Connection ~ 2200 4500
+Wire Wire Line
+	2200 4500 2500 4500
+$Comp
+L Switch:SW_DPST SW?
+U 1 1 6581F068
+P 3900 4950
+F 0 "SW?" H 3900 5275 50  0000 C CNN
+F 1 "MAIN POWER" H 3900 5184 50  0000 C CNN
+F 2 "" H 3900 4950 50  0001 C CNN
+F 3 "~" H 3900 4950 50  0001 C CNN
+	1    3900 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 4500 3200 4500
+Wire Wire Line
+	3200 4500 3200 4850
+Wire Wire Line
+	3200 4850 3700 4850
+Wire Wire Line
+	2300 1700 2550 1700
+Wire Wire Line
+	2550 1700 2550 2000
+Wire Wire Line
+	2550 2000 2300 2000
+Text Notes 1900 2100 1    50   ~ 0
+115V   230V
+Wire Notes Line
+	1800 1600 1800 2150
+Wire Notes Line
+	1800 2150 1950 2150
+Wire Notes Line
+	1950 2150 1950 1600
+Wire Notes Line
+	1950 1600 1800 1600
+Wire Notes Line
+	1800 1850 1950 1850
+NoConn ~ 2300 1800
+$Sheet
+S 2950 5900 2400 1200
+U 6582399F
+F0 "AC Switch Board" 50
+F1 "ac-switch-board.sch" 50
+$EndSheet
+Wire Wire Line
+	4100 5050 4450 5050
+Wire Wire Line
+	4450 5050 4450 1900
+Wire Wire Line
+	2300 1900 4450 1900
+$Comp
+L Connector:Conn_WallSocket J?
+U 1 1 65830C12
+P 6350 4250
+AR Path="/5E8CC7CC/6582399F/65830C12" Ref="J?"  Part="1" 
+AR Path="/5E8CC7CC/65830C12" Ref="J?"  Part="1" 
+F 0 "J?" H 6504 4296 50  0000 L CNN
+F 1 "Conn_WallSocket" H 6504 4205 50  0000 L CNN
+F 2 "" H 5950 4250 50  0001 C CNN
+F 3 "~" H 5950 4250 50  0001 C CNN
+	1    6350 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_WallPlug P?
+U 1 1 65830C18
+P 5550 4250
+AR Path="/5E8CC7CC/6582399F/65830C18" Ref="P?"  Part="1" 
+AR Path="/5E8CC7CC/65830C18" Ref="P?"  Part="1" 
+F 0 "P?" H 5567 4575 50  0000 C CNN
+F 1 "Conn_WallPlug" H 5567 4484 50  0000 C CNN
+F 2 "" H 5950 4250 50  0001 C CNN
+F 3 "~" H 5950 4250 50  0001 C CNN
+	1    5550 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Barrel_Jack J?
+U 1 1 65830C1E
+P 5400 5250
+AR Path="/5E8CC7CC/6582399F/65830C1E" Ref="J?"  Part="1" 
+AR Path="/5E8CC7CC/65830C1E" Ref="J?"  Part="1" 
+F 0 "J?" H 5457 5575 50  0000 C CNN
+F 1 "Barrel_Jack" H 5457 5484 50  0000 C CNN
+F 2 "" H 5450 5210 50  0001 C CNN
+F 3 "~" H 5450 5210 50  0001 C CNN
+	1    5400 5250
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	5050 3800 5050 5400
+Wire Notes Line
+	5050 5400 6950 5400
+Wire Notes Line
+	6950 5400 6950 3800
+Wire Notes Line
+	6950 3800 5050 3800
+Text Notes 5950 4800 0    50   ~ 0
+All One Connector
+Wire Wire Line
+	5750 4150 5950 4150
+Wire Wire Line
+	3700 5050 3450 5050
+Wire Wire Line
+	3450 5050 3450 5650
+Wire Wire Line
+	3450 5650 5950 5650
+Wire Wire Line
+	5950 5650 5950 4150
+Connection ~ 5950 4150
+Wire Wire Line
+	5950 4150 6150 4150
+Wire Wire Line
+	5750 4350 6150 4350
+$Comp
+L Connector:Conn_Coaxial J?
+U 1 1 65834732
+P 6000 2350
+F 0 "J?" H 6100 2325 50  0000 L CNN
+F 1 "Signal Input" H 6100 2234 50  0000 L CNN
+F 2 "" H 6000 2350 50  0001 C CNN
+F 3 " ~" H 6000 2350 50  0001 C CNN
+	1    6000 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 2550 6000 3500
+Wire Wire Line
+	6000 3500 5400 3500
+Wire Wire Line
+	4050 3500 4050 4100
+Wire Wire Line
+	4050 4100 2100 4100
+Wire Wire Line
+	5100 3350 5100 3500
+Connection ~ 5100 3500
+Wire Wire Line
+	5100 3500 4050 3500
+Wire Wire Line
+	5400 3350 5400 3500
+Connection ~ 5400 3500
+Wire Wire Line
+	5400 3500 5100 3500
+Wire Wire Line
+	7000 2500 7000 2650
+Wire Wire Line
+	7000 2650 6600 2650
+Wire Wire Line
+	6600 2650 6600 2500
+Wire Wire Line
+	6600 2500 6700 2500
+Connection ~ 7000 2500
+Wire Wire Line
+	7000 2500 7350 2500
+Wire Wire Line
+	5100 3150 5100 1950
+Wire Wire Line
+	5100 1950 6600 1950
+Wire Wire Line
+	6600 1950 6600 2500
+Connection ~ 6600 2500
+Wire Wire Line
+	5550 2350 5800 2350
+Wire Wire Line
+	5400 3150 5400 2950
+Wire Wire Line
+	5400 2950 5200 2950
+Wire Wire Line
+	5200 2950 5200 2350
+Wire Wire Line
+	5200 2350 5350 2350
+Wire Wire Line
+	5200 2350 3650 2350
+Wire Wire Line
+	3650 2350 3650 4000
+Wire Wire Line
+	3650 4000 2100 4000
+Connection ~ 5200 2350
 $EndSCHEMATC
