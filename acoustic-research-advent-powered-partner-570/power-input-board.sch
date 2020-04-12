@@ -119,10 +119,10 @@ Connection ~ 2200 4500
 Wire Wire Line
 	2200 4500 2500 4500
 $Comp
-L Switch:SW_DPST SW?
+L Switch:SW_DPST SW1
 U 1 1 6581F068
 P 3900 4950
-F 0 "SW?" H 3900 5275 50  0000 C CNN
+F 0 "SW1" H 3900 5275 50  0000 C CNN
 F 1 "MAIN POWER" H 3900 5184 50  0000 C CNN
 F 2 "" H 3900 4950 50  0001 C CNN
 F 3 "~" H 3900 4950 50  0001 C CNN
@@ -195,15 +195,15 @@ $EndComp
 $Comp
 L Connector:Barrel_Jack J?
 U 1 1 65830C1E
-P 5400 5250
+P 5800 4750
 AR Path="/5E8CC7CC/6582399F/65830C1E" Ref="J?"  Part="1" 
 AR Path="/5E8CC7CC/65830C1E" Ref="J?"  Part="1" 
-F 0 "J?" H 5457 5575 50  0000 C CNN
-F 1 "Barrel_Jack" H 5457 5484 50  0000 C CNN
-F 2 "" H 5450 5210 50  0001 C CNN
-F 3 "~" H 5450 5210 50  0001 C CNN
-	1    5400 5250
-	1    0    0    -1  
+F 0 "J?" H 5570 4708 50  0000 R CNN
+F 1 "Barrel_Jack" H 5570 4799 50  0000 R CNN
+F 2 "" H 5850 4710 50  0001 C CNN
+F 3 "~" H 5850 4710 50  0001 C CNN
+	1    5800 4750
+	-1   0    0    1   
 $EndComp
 Wire Notes Line
 	5050 3800 5050 5400
@@ -213,23 +213,15 @@ Wire Notes Line
 	6950 5400 6950 3800
 Wire Notes Line
 	6950 3800 5050 3800
-Text Notes 5950 4800 0    50   ~ 0
+Text Notes 5700 5200 0    50   ~ 0
 All One Connector
 Wire Wire Line
 	5750 4150 5950 4150
-Wire Wire Line
-	3700 5050 3450 5050
-Wire Wire Line
-	3450 5050 3450 5650
-Wire Wire Line
-	3450 5650 5950 5650
-Wire Wire Line
-	5950 5650 5950 4150
 Connection ~ 5950 4150
 Wire Wire Line
 	5950 4150 6150 4150
 Wire Wire Line
-	5750 4350 6150 4350
+	5750 4350 5950 4350
 $Comp
 L Connector:Conn_Coaxial J?
 U 1 1 65834732
@@ -294,4 +286,41 @@ Wire Wire Line
 Wire Wire Line
 	3650 4000 2100 4000
 Connection ~ 5200 2350
+Wire Wire Line
+	2100 4200 2250 4200
+Wire Wire Line
+	2250 4200 2250 4300
+Wire Wire Line
+	2250 4300 2100 4300
+Wire Wire Line
+	4900 4650 4900 4300
+Wire Wire Line
+	4900 4300 2250 4300
+Connection ~ 2250 4300
+Wire Wire Line
+	4900 4650 5500 4650
+Wire Wire Line
+	5500 4850 4100 4850
+Wire Wire Line
+	5950 4150 5950 3700
+Wire Wire Line
+	5950 3700 3350 3700
+Wire Wire Line
+	3350 3700 3350 5050
+Wire Wire Line
+	3350 5050 3700 5050
+Wire Wire Line
+	5950 4350 5950 4500
+Wire Wire Line
+	5950 4500 5000 4500
+Wire Wire Line
+	5000 4500 5000 3600
+Wire Wire Line
+	5000 3600 2550 3600
+Wire Wire Line
+	2550 3600 2550 2000
+Connection ~ 5950 4350
+Wire Wire Line
+	5950 4350 6150 4350
+Connection ~ 2550 2000
 $EndSCHEMATC
