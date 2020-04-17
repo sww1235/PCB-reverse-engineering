@@ -195,14 +195,14 @@ $EndComp
 $Comp
 L Connector:Barrel_Jack J?
 U 1 1 65830C1E
-P 5800 4750
+P 6650 4750
 AR Path="/5E8CC7CC/6582399F/65830C1E" Ref="J?"  Part="1" 
 AR Path="/5E8CC7CC/65830C1E" Ref="J?"  Part="1" 
-F 0 "J?" H 5570 4708 50  0000 R CNN
-F 1 "Barrel_Jack" H 5570 4799 50  0000 R CNN
-F 2 "" H 5850 4710 50  0001 C CNN
-F 3 "~" H 5850 4710 50  0001 C CNN
-	1    5800 4750
+F 0 "J?" H 6420 4708 50  0000 R CNN
+F 1 "Barrel_Jack" H 6420 4799 50  0000 R CNN
+F 2 "" H 6700 4710 50  0001 C CNN
+F 3 "~" H 6700 4710 50  0001 C CNN
+	1    6650 4750
 	-1   0    0    1   
 $EndComp
 Wire Notes Line
@@ -298,9 +298,9 @@ Wire Wire Line
 	4900 4300 2250 4300
 Connection ~ 2250 4300
 Wire Wire Line
-	4900 4650 5500 4650
+	4900 4650 6350 4650
 Wire Wire Line
-	5500 4850 4100 4850
+	6350 4850 6000 4850
 Wire Wire Line
 	5950 4150 5950 3700
 Wire Wire Line
@@ -323,4 +323,17 @@ Connection ~ 5950 4350
 Wire Wire Line
 	5950 4350 6150 4350
 Connection ~ 2550 2000
+$Comp
+L Switch:SW_Push SW?
+U 1 1 65865EB1
+P 5800 4850
+F 0 "SW?" H 5800 4757 50  0000 C CNN
+F 1 "AC Connected" H 5800 4666 50  0000 C CNN
+F 2 "" H 5800 5050 50  0001 C CNN
+F 3 "~" H 5800 5050 50  0001 C CNN
+	1    5800 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 4850 4100 4850
 $EndSCHEMATC
