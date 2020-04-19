@@ -69,31 +69,16 @@ F 3 "~" H 2650 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Jumper_NC_Small J24
-U 1 1 6581408D
-P 6800 2500
-F 0 "J24" H 6800 2712 50  0000 C CNN
-F 1 "DNP" H 6800 2621 50  0000 C CNN
-F 2 "" H 6800 2500 50  0001 C CNN
-F 3 "~" H 6800 2500 50  0001 C CNN
-	1    6800 2500
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:Earth_Protective #PWR?
 U 1 1 65814E46
-P 7350 2600
-F 0 "#PWR?" H 7600 2350 50  0001 C CNN
-F 1 "Earth_Protective" H 7800 2450 50  0001 C CNN
-F 2 "" H 7350 2500 50  0001 C CNN
-F 3 "~" H 7350 2500 50  0001 C CNN
-	1    7350 2600
+P 6600 2750
+F 0 "#PWR?" H 6850 2500 50  0001 C CNN
+F 1 "Earth_Protective" H 7050 2600 50  0001 C CNN
+F 2 "" H 6600 2650 50  0001 C CNN
+F 3 "~" H 6600 2650 50  0001 C CNN
+	1    6600 2750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6900 2500 7000 2500
-Wire Wire Line
-	7350 2500 7350 2600
 $Comp
 L Connector_Generic:Conn_01x06 J?
 U 1 1 6581CAE7
@@ -243,17 +228,6 @@ Wire Wire Line
 	3150 4100 2100 4100
 Connection ~ 5200 2750
 Wire Wire Line
-	7000 2500 7000 2650
-Wire Wire Line
-	7000 2650 6600 2650
-Wire Wire Line
-	6600 2650 6600 2600
-Wire Wire Line
-	6600 2500 6700 2500
-Connection ~ 7000 2500
-Wire Wire Line
-	7000 2500 7350 2500
-Wire Wire Line
 	5550 2350 5800 2350
 Wire Wire Line
 	5200 2350 5350 2350
@@ -321,9 +295,6 @@ Wire Wire Line
 	6000 2600 6000 2750
 Wire Wire Line
 	6350 2600 6600 2600
-Connection ~ 6600 2600
-Wire Wire Line
-	6600 2600 6600 2500
 Wire Wire Line
 	3150 2750 5200 2750
 Wire Wire Line
@@ -334,4 +305,6 @@ Text Label 3700 2350 0    50   ~ 0
 AUDIO_IN
 Text Label 3750 2750 0    50   ~ 0
 AUDIO_GND
+Wire Wire Line
+	6600 2600 6600 2750
 $EndSCHEMATC
