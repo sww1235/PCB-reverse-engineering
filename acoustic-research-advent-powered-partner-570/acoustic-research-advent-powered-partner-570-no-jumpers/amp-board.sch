@@ -3194,4 +3194,8 @@ Wire Wire Line
 	7000 13950 7000 14700
 Wire Wire Line
 	7000 14700 7100 14700
+Text Notes 8250 14850 0    50   ~ 0
+Darlington Pair\nwith bypass bleedoff\nresistor
+Text Notes 12700 7250 0    50   ~ 0
+Darlington Pair
 $EndSCHEMATC
