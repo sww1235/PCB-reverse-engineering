@@ -24,4 +24,26 @@ F 3 "" H 12650 5800 50  0001 C CNN
 	1    6050 3550
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:Battery_Cell BT?
+U 1 1 5F3429FB
+P 1550 3750
+F 0 "BT?" H 1650 3850 50  0000 L CNN
+F 1 "Battery_Cell" H 1650 3750 50  0000 L CNN
+F 2 "" V 1550 3810 50  0001 C CNN
+F 3 "~" V 1550 3810 50  0001 C CNN
+	1    1550 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Crystal Y?
+U 1 1 5F3433CE
+P 3350 3650
+F 0 "Y?" H 3350 3800 50  0000 C CNN
+F 1 "26.000MHz" H 3350 3500 50  0000 C CNN
+F 2 "" H 3350 3650 50  0001 C CNN
+F 3 "~" H 3350 3650 50  0001 C CNN
+	1    3350 3650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
