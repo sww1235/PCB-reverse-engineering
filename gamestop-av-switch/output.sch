@@ -244,26 +244,10 @@ Text HLabel 9850 3700 2    50   UnSpc ~ 0
 2
 Text HLabel 9850 3600 2    50   UnSpc ~ 0
 3
-Text HLabel 9850 3500 2    50   UnSpc ~ 0
-4
-Text HLabel 9850 3400 2    50   UnSpc ~ 0
-5
 Text HLabel 9850 3300 2    50   UnSpc ~ 0
 6
-Text HLabel 9850 3200 2    50   UnSpc ~ 0
-7
-Text HLabel 9850 3100 2    50   UnSpc ~ 0
-8
-Wire Wire Line
-	9550 3100 9850 3100
-Wire Wire Line
-	9550 3200 9850 3200
 Wire Wire Line
 	9550 3300 9850 3300
-Wire Wire Line
-	9550 3400 9850 3400
-Wire Wire Line
-	9550 3500 9850 3500
 Wire Wire Line
 	9550 3600 9850 3600
 Wire Wire Line
@@ -347,4 +331,8 @@ Wire Wire Line
 Connection ~ 2000 3400
 Wire Wire Line
 	2000 3400 2200 3400
+NoConn ~ 9550 3100
+NoConn ~ 9550 3200
+NoConn ~ 9550 3400
+NoConn ~ 9550 3500
 $EndSCHEMATC

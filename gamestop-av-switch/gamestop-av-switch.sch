@@ -40,11 +40,7 @@ F9 "Composite" U L 38800 3200 50
 F10 "1" U R 40100 3000 50 
 F11 "2" U R 40100 3100 50 
 F12 "3" U R 40100 3200 50 
-F13 "4" U R 40100 3300 50 
-F14 "5" U R 40100 3400 50 
-F15 "6" U R 40100 3500 50 
-F16 "7" U R 40100 3600 50 
-F17 "8" U R 40100 3700 50 
+F13 "6" U R 40100 3500 50 
 $EndSheet
 $Sheet
 S 1150 3350 1300 900 
@@ -62,11 +58,7 @@ F9 "Composite" U R 2450 3650 50
 F10 "1" U L 1150 3450 50 
 F11 "2" U L 1150 3550 50 
 F12 "3" U L 1150 3650 50 
-F13 "4" U L 1150 3750 50 
-F14 "5" U L 1150 3850 50 
-F15 "6" U L 1150 3950 50 
-F16 "7" U L 1150 4050 50 
-F17 "8" U L 1150 4150 50 
+F13 "6" U L 1150 3950 50 
 $EndSheet
 $Sheet
 S 1150 4500 1300 900 
@@ -84,11 +76,7 @@ F9 "Composite" U R 2450 4800 50
 F10 "1" U L 1150 4600 50 
 F11 "2" U L 1150 4700 50 
 F12 "3" U L 1150 4800 50 
-F13 "4" U L 1150 4900 50 
-F14 "5" U L 1150 5000 50 
-F15 "6" U L 1150 5100 50 
-F16 "7" U L 1150 5200 50 
-F17 "8" U L 1150 5300 50 
+F13 "6" U L 1150 5100 50 
 $EndSheet
 Text Notes 32150 1950 0    50   ~ 0
 Front Input connectors are mounted\non a separate PCB connected via ribbon cable\n\nRemainder of RCA and S-Video connectors are\nmounted on a separate PCB inserted in slots\nin the main PCB and anchored with metal right\nangle brackets\n\nRJ45 connectors and switches are mounted\non main PCB\n\nNot all mechanical holes and ground points are\ncaptured in this schematic. It is intended to be a\ndebugging reference to understand how it works,\nnot a complete manufacturable PCB.
@@ -108,11 +96,7 @@ F9 "Composite" U R 2450 2500 50
 F10 "1" U L 1150 2300 50 
 F11 "2" U L 1150 2400 50 
 F12 "3" U L 1150 2500 50 
-F13 "4" U L 1150 2600 50 
-F14 "5" U L 1150 2700 50 
-F15 "6" U L 1150 2800 50 
-F16 "7" U L 1150 2900 50 
-F17 "8" U L 1150 3000 50 
+F13 "6" U L 1150 2800 50 
 $EndSheet
 Text Notes 13650 1150 0    50   ~ 0
 Switches are numbered 1-7 from left to right\nlooking at the top of the PCB\n\nPins are numbered top to bottom looking at\nbottom of PCB with connectors towards the front

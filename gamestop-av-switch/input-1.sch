@@ -244,26 +244,10 @@ Text HLabel 9750 3400 2    50   UnSpc ~ 0
 2
 Text HLabel 9750 3300 2    50   UnSpc ~ 0
 3
-Text HLabel 9750 3200 2    50   UnSpc ~ 0
-4
-Text HLabel 9750 3100 2    50   UnSpc ~ 0
-5
 Text HLabel 9750 3000 2    50   UnSpc ~ 0
 6
-Text HLabel 9750 2900 2    50   UnSpc ~ 0
-7
-Text HLabel 9750 2800 2    50   UnSpc ~ 0
-8
-Wire Wire Line
-	9450 2800 9750 2800
-Wire Wire Line
-	9450 2900 9750 2900
 Wire Wire Line
 	9450 3000 9750 3000
-Wire Wire Line
-	9450 3100 9750 3100
-Wire Wire Line
-	9450 3200 9750 3200
 Wire Wire Line
 	9450 3300 9750 3300
 Wire Wire Line
@@ -283,4 +267,8 @@ F 3 "" H 9050 3800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9050 3800 9050 3700
+NoConn ~ 9450 2800
+NoConn ~ 9450 2900
+NoConn ~ 9450 3100
+NoConn ~ 9450 3200
 $EndSCHEMATC
