@@ -5,4 +5,5 @@
   (lib (name Connector)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Connector.lib)(options "")(descr ""))
   (lib (name Audio)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Audio.lib)(options "")(descr ""))
   (lib (name SW-con)(type Legacy)(uri ${KISWWLIBRARIES}/SW-con.lib)(options "")(descr ""))
+  (lib (name Jumper)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Jumper.lib)(options "")(descr ""))
 )

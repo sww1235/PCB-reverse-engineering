@@ -1,7 +1,7 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A0 46811 33110
 encoding utf-8
 Sheet 1 6
 Title ""
@@ -25,26 +25,26 @@ F5 "Y" U R 2450 1450 50
 F6 "Right" U R 2450 1250 50 
 $EndSheet
 $Sheet
-S 8950 3100 1300 900 
+S 22600 2900 1300 900 
 U 60F434DB
 F0 "Output" 50
 F1 "output.sch" 50
-F2 "Right" U L 8950 3300 50 
-F3 "Left" U L 8950 3200 50 
-F4 "Red" U L 8950 3700 50 
-F5 "Green" U L 8950 3800 50 
-F6 "Blue" U L 8950 3900 50 
-F7 "Y" U L 8950 3500 50 
-F8 "C" U L 8950 3600 50 
-F9 "Composite" U L 8950 3400 50 
-F10 "1" U R 10250 3200 50 
-F11 "2" U R 10250 3300 50 
-F12 "3" U R 10250 3400 50 
-F13 "4" U R 10250 3500 50 
-F14 "5" U R 10250 3600 50 
-F15 "6" U R 10250 3700 50 
-F16 "7" U R 10250 3800 50 
-F17 "8" U R 10250 3900 50 
+F2 "Right" U L 22600 3100 50 
+F3 "Left" U L 22600 3000 50 
+F4 "Red" U L 22600 3500 50 
+F5 "Green" U L 22600 3600 50 
+F6 "Blue" U L 22600 3700 50 
+F7 "Y" U L 22600 3300 50 
+F8 "C" U L 22600 3400 50 
+F9 "Composite" U L 22600 3200 50 
+F10 "1" U R 23900 3000 50 
+F11 "2" U R 23900 3100 50 
+F12 "3" U R 23900 3200 50 
+F13 "4" U R 23900 3300 50 
+F14 "5" U R 23900 3400 50 
+F15 "6" U R 23900 3500 50 
+F16 "7" U R 23900 3600 50 
+F17 "8" U R 23900 3700 50 
 $EndSheet
 $Sheet
 S 1150 3350 1300 900 
@@ -90,7 +90,7 @@ F15 "6" U L 1150 5100 50
 F16 "7" U L 1150 5200 50 
 F17 "8" U L 1150 5300 50 
 $EndSheet
-Text Notes 8450 2150 0    50   ~ 0
+Text Notes 22100 1950 0    50   ~ 0
 Front Input connectors are mounted\non a separate PCB connected via ribbon cable\n\nRemainder of RCA and S-Video connectors are\nmounted on a separate PCB inserted in slots\nin the main PCB and anchored with metal right\nangle brackets\n\nRJ45 connectors and switches are mounted\non main PCB\n\nNot all mechanical holes and ground points are\ncaptured in this schematic. It is intended to be a\ndebugging reference to understand how it works,\nnot a complete manufacturable PCB.
 $Sheet
 S 1150 2200 1300 900 
@@ -114,4 +114,675 @@ F15 "6" U L 1150 2800 50
 F16 "7" U L 1150 2900 50 
 F17 "8" U L 1150 3000 50 
 $EndSheet
+Text Notes 5050 4400 0    50   ~ 0
+Switches are numbered 1-7 from left to right\nlooking at the top of the PCB\n\nPins are numbered top to bottom looking at\nbottom of PCB with connectors towards the front
+$Comp
+L Connector_Generic:Conn_01x09 J?
+U 1 1 60FBB208
+P 3550 5300
+F 0 "J?" H 3500 5850 50  0000 L CNN
+F 1 "SW1_L" H 3350 4750 50  0000 L CNN
+F 2 "" H 3550 5300 50  0001 C CNN
+F 3 "~" H 3550 5300 50  0001 C CNN
+	1    3550 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x09 J?
+U 1 1 60FBB70F
+P 3750 5300
+F 0 "J?" H 3700 5850 50  0000 L CNN
+F 1 "SW1_R" H 3550 4750 50  0000 L CNN
+F 2 "" H 3750 5300 50  0001 C CNN
+F 3 "~" H 3750 5300 50  0001 C CNN
+	1    3750 5300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x09 J?
+U 1 1 60FBDD95
+P 4500 16600
+F 0 "J?" H 4450 17150 50  0000 L CNN
+F 1 "SW2_L" H 4300 16050 50  0000 L CNN
+F 2 "" H 4500 16600 50  0001 C CNN
+F 3 "~" H 4500 16600 50  0001 C CNN
+	1    4500 16600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x09 J?
+U 1 1 60FBDD9B
+P 4700 16600
+F 0 "J?" H 4650 17150 50  0000 L CNN
+F 1 "SW2_R" H 4500 16050 50  0000 L CNN
+F 2 "" H 4700 16600 50  0001 C CNN
+F 3 "~" H 4700 16600 50  0001 C CNN
+	1    4700 16600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x09 J?
+U 1 1 60FBE8B7
+P 5400 5300
+F 0 "J?" H 5350 5850 50  0000 L CNN
+F 1 "SW3_L" H 5200 4750 50  0000 L CNN
+F 2 "" H 5400 5300 50  0001 C CNN
+F 3 "~" H 5400 5300 50  0001 C CNN
+	1    5400 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x09 J?
+U 1 1 60FBE8BD
+P 5600 5300
+F 0 "J?" H 5550 5850 50  0000 L CNN
+F 1 "SW3_R" H 5400 4750 50  0000 L CNN
+F 2 "" H 5600 5300 50  0001 C CNN
+F 3 "~" H 5600 5300 50  0001 C CNN
+	1    5600 5300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x09 J?
+U 1 1 60FBEFAF
+P 7900 16850
+F 0 "J?" H 7850 17400 50  0000 L CNN
+F 1 "SW4_L" H 7700 16300 50  0000 L CNN
+F 2 "" H 7900 16850 50  0001 C CNN
+F 3 "~" H 7900 16850 50  0001 C CNN
+	1    7900 16850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x09 J?
+U 1 1 60FBEFB5
+P 8100 16850
+F 0 "J?" H 8050 17400 50  0000 L CNN
+F 1 "SW4_R" H 7900 16300 50  0000 L CNN
+F 2 "" H 8100 16850 50  0001 C CNN
+F 3 "~" H 8100 16850 50  0001 C CNN
+	1    8100 16850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x09 J?
+U 1 1 60FBF88F
+P 10600 5300
+F 0 "J?" H 10550 5850 50  0000 L CNN
+F 1 "SW5_L" H 10400 4750 50  0000 L CNN
+F 2 "" H 10600 5300 50  0001 C CNN
+F 3 "~" H 10600 5300 50  0001 C CNN
+	1    10600 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x09 J?
+U 1 1 60FBF895
+P 10800 5300
+F 0 "J?" H 10750 5850 50  0000 L CNN
+F 1 "SW5_R" H 10600 4750 50  0000 L CNN
+F 2 "" H 10800 5300 50  0001 C CNN
+F 3 "~" H 10800 5300 50  0001 C CNN
+	1    10800 5300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x09 J?
+U 1 1 60FBFD53
+P 16200 16000
+F 0 "J?" H 16150 16550 50  0000 L CNN
+F 1 "SW6_L" H 16000 15450 50  0000 L CNN
+F 2 "" H 16200 16000 50  0001 C CNN
+F 3 "~" H 16200 16000 50  0001 C CNN
+	1    16200 16000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x09 J?
+U 1 1 60FBFD59
+P 16400 16000
+F 0 "J?" H 16350 16550 50  0000 L CNN
+F 1 "SW6_R" H 16200 15450 50  0000 L CNN
+F 2 "" H 16400 16000 50  0001 C CNN
+F 3 "~" H 16400 16000 50  0001 C CNN
+	1    16400 16000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x09 J?
+U 1 1 60FC0237
+P 20050 5300
+F 0 "J?" H 20000 5850 50  0000 L CNN
+F 1 "SW7_L" H 19850 4750 50  0000 L CNN
+F 2 "" H 20050 5300 50  0001 C CNN
+F 3 "~" H 20050 5300 50  0001 C CNN
+	1    20050 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x09 J?
+U 1 1 60FC023D
+P 20250 5300
+F 0 "J?" H 20200 5850 50  0000 L CNN
+F 1 "SW7_R" H 20050 4750 50  0000 L CNN
+F 2 "" H 20250 5300 50  0001 C CNN
+F 3 "~" H 20250 5300 50  0001 C CNN
+	1    20250 5300
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 19850 4900
+NoConn ~ 20450 4900
+Wire Wire Line
+	2450 1150 7250 1150
+Wire Wire Line
+	7250 1150 7250 4600
+Wire Wire Line
+	7250 4600 20700 4600
+Wire Wire Line
+	20700 4600 20700 5100
+Wire Wire Line
+	20700 5100 20450 5100
+Wire Wire Line
+	20450 5200 20550 5200
+Wire Wire Line
+	20550 5200 20550 5300
+Wire Wire Line
+	20550 5400 20450 5400
+Wire Wire Line
+	20450 5300 20550 5300
+Connection ~ 20550 5300
+Wire Wire Line
+	20550 5300 20550 5400
+Wire Wire Line
+	2450 1350 6700 1350
+Wire Wire Line
+	6700 1350 6700 3150
+Wire Wire Line
+	6700 3150 7650 3150
+Wire Wire Line
+	7650 3150 7650 4300
+Wire Wire Line
+	7650 4300 20950 4300
+Wire Wire Line
+	20950 4300 20950 5700
+Wire Wire Line
+	20950 5700 20450 5700
+Wire Wire Line
+	2450 1550 6050 1550
+Wire Wire Line
+	6050 1550 6050 3950
+Wire Wire Line
+	6050 3950 19700 3950
+Wire Wire Line
+	19700 3950 19700 5100
+Wire Wire Line
+	19700 5100 19850 5100
+Wire Wire Line
+	2450 1450 8300 1450
+Wire Wire Line
+	8300 1450 8300 4150
+Wire Wire Line
+	8300 4150 19600 4150
+Wire Wire Line
+	19600 4150 19600 5400
+Wire Wire Line
+	19600 5400 19850 5400
+Wire Wire Line
+	2450 1250 8100 1250
+Wire Wire Line
+	8100 1250 8100 4450
+Wire Wire Line
+	8100 4450 19550 4450
+Wire Wire Line
+	19550 4450 19550 5700
+Wire Wire Line
+	19550 5700 19850 5700
+$Comp
+L Jumper:Jumper_2_Bridged J19
+U 1 1 60FFAAAA
+P 14700 5550
+F 0 "J19" H 14700 5653 50  0000 C CNN
+F 1 "~" H 14700 5654 50  0000 C CNN
+F 2 "" H 14700 5550 50  0001 C CNN
+F 3 "~" H 14700 5550 50  0001 C CNN
+	1    14700 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	20450 5000 20600 5000
+Wire Wire Line
+	20600 5000 20600 4700
+$Comp
+L Jumper:Jumper_2_Bridged J42
+U 1 1 60FFD080
+P 14700 5950
+F 0 "J42" H 14700 6053 50  0000 C CNN
+F 1 "~" H 14700 6054 50  0000 C CNN
+F 2 "" H 14700 5950 50  0001 C CNN
+F 3 "~" H 14700 5950 50  0001 C CNN
+	1    14700 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14900 5550 15300 5550
+Wire Wire Line
+	15300 5550 15300 4700
+Wire Wire Line
+	15300 4700 20600 4700
+Wire Wire Line
+	14900 5950 15300 5950
+Wire Wire Line
+	15300 5950 15300 5550
+Connection ~ 15300 5550
+$Comp
+L Jumper:Jumper_2_Bridged J38
+U 1 1 60FFE91E
+P 14700 6300
+F 0 "J38" H 14700 6403 50  0000 C CNN
+F 1 "~" H 14700 6404 50  0000 C CNN
+F 2 "" H 14700 6300 50  0001 C CNN
+F 3 "~" H 14700 6300 50  0001 C CNN
+	1    14700 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14900 6300 15300 6300
+Wire Wire Line
+	15300 6300 15300 5950
+Connection ~ 15300 5950
+Wire Wire Line
+	20600 4700 21800 4700
+Wire Wire Line
+	21800 4700 21800 3000
+Wire Wire Line
+	21800 3000 22600 3000
+Connection ~ 20600 4700
+Wire Wire Line
+	11150 5550 11150 5300
+Wire Wire Line
+	11150 5300 11000 5300
+Wire Wire Line
+	11150 5550 14500 5550
+Wire Wire Line
+	5800 5300 5950 5300
+Wire Wire Line
+	5950 5300 5950 6350
+Wire Wire Line
+	5950 6350 13700 6350
+Wire Wire Line
+	13700 6350 13700 5950
+Wire Wire Line
+	13700 5950 14500 5950
+Wire Wire Line
+	14500 6300 14500 6650
+Wire Wire Line
+	14500 6650 4600 6650
+Wire Wire Line
+	4600 6650 4600 5300
+Wire Wire Line
+	4600 5300 3950 5300
+NoConn ~ 20450 5500
+NoConn ~ 19850 5500
+NoConn ~ 19850 5200
+$Comp
+L Jumper:Jumper_2_Bridged J33
+U 1 1 61016726
+P 21850 5600
+F 0 "J33" H 21850 5703 50  0000 C CNN
+F 1 "~" H 21850 5704 50  0000 C CNN
+F 2 "" H 21850 5600 50  0001 C CNN
+F 3 "~" H 21850 5600 50  0001 C CNN
+	1    21850 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	20450 5600 21650 5600
+$Comp
+L Jumper:Jumper_2_Bridged J17
+U 1 1 61019CF1
+P 22650 5600
+F 0 "J17" H 22650 5703 50  0000 C CNN
+F 1 "~" H 22650 5704 50  0000 C CNN
+F 2 "" H 22650 5600 50  0001 C CNN
+F 3 "~" H 22650 5600 50  0001 C CNN
+	1    22650 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	22450 5600 22250 5600
+Wire Wire Line
+	22850 5600 23200 5600
+Wire Wire Line
+	23200 5600 23200 6550
+Wire Wire Line
+	23200 6550 15200 6550
+Wire Wire Line
+	16000 16000 15200 16000
+Wire Wire Line
+	15200 6550 15200 16000
+$Comp
+L Jumper:Jumper_2_Bridged J13
+U 1 1 61022E48
+P 21850 6100
+F 0 "J13" H 21850 6203 50  0000 C CNN
+F 1 "~" H 21850 6204 50  0000 C CNN
+F 2 "" H 21850 6100 50  0001 C CNN
+F 3 "~" H 21850 6100 50  0001 C CNN
+	1    21850 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	22050 6100 22250 6100
+Wire Wire Line
+	22250 6100 22250 5600
+Connection ~ 22250 5600
+Wire Wire Line
+	22250 5600 22050 5600
+$Comp
+L Jumper:Jumper_2_Bridged J7
+U 1 1 61024A46
+P 20400 6100
+F 0 "J7" H 20400 6203 50  0000 C CNN
+F 1 "~" H 20400 6204 50  0000 C CNN
+F 2 "" H 20400 6100 50  0001 C CNN
+F 3 "~" H 20400 6100 50  0001 C CNN
+	1    20400 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21650 6100 21050 6100
+$Comp
+L Jumper:Jumper_2_Bridged J1
+U 1 1 61026606
+P 18050 6100
+F 0 "J1" H 18050 6203 50  0000 C CNN
+F 1 "~" H 18050 6204 50  0000 C CNN
+F 2 "" H 18050 6100 50  0001 C CNN
+F 3 "~" H 18050 6100 50  0001 C CNN
+	1    18050 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18250 6100 19400 6100
+$Comp
+L Jumper:Jumper_2_Bridged J30
+U 1 1 6102839A
+P 20400 6450
+F 0 "J30" H 20400 6553 50  0000 C CNN
+F 1 "~" H 20400 6554 50  0000 C CNN
+F 2 "" H 20400 6450 50  0001 C CNN
+F 3 "~" H 20400 6450 50  0001 C CNN
+	1    20400 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	20600 6450 21050 6450
+Wire Wire Line
+	21050 6450 21050 6100
+Connection ~ 21050 6100
+Wire Wire Line
+	21050 6100 20600 6100
+Wire Wire Line
+	20200 6450 18300 6450
+Wire Wire Line
+	18300 6450 18300 17650
+Wire Wire Line
+	18300 17650 7250 17650
+Wire Wire Line
+	7250 17650 7250 16850
+Wire Wire Line
+	7250 16850 7700 16850
+$Comp
+L Jumper:Jumper_2_Bridged J34
+U 1 1 61031286
+P 19100 6300
+F 0 "J34" H 19100 6403 50  0000 C CNN
+F 1 "~" H 19100 6404 50  0000 C CNN
+F 2 "" H 19100 6300 50  0001 C CNN
+F 3 "~" H 19100 6300 50  0001 C CNN
+	1    19100 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19300 6300 19400 6300
+Wire Wire Line
+	19400 6300 19400 6100
+Connection ~ 19400 6100
+Wire Wire Line
+	19400 6100 20200 6100
+Wire Wire Line
+	18900 6300 18200 6300
+Wire Wire Line
+	18200 6300 18200 17300
+Wire Wire Line
+	18200 17300 9800 17300
+Wire Wire Line
+	9800 17300 9800 18350
+Wire Wire Line
+	9800 18350 3750 18350
+Wire Wire Line
+	3750 18350 3750 16600
+Wire Wire Line
+	3750 16600 4300 16600
+Wire Wire Line
+	17850 6100 17750 6100
+Wire Wire Line
+	17750 6100 17750 3500
+Wire Wire Line
+	17750 3500 22250 3500
+Wire Wire Line
+	22250 3500 22250 3200
+Wire Wire Line
+	22250 3200 22600 3200
+$Comp
+L Jumper:Jumper_2_Bridged J35
+U 1 1 61039E31
+P 16600 5050
+F 0 "J35" H 16600 5153 50  0000 C CNN
+F 1 "~" H 16600 5154 50  0000 C CNN
+F 2 "" H 16600 5050 50  0001 C CNN
+F 3 "~" H 16600 5050 50  0001 C CNN
+	1    16600 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19850 5000 19350 5000
+Wire Wire Line
+	16900 5000 16900 5050
+Wire Wire Line
+	16900 5050 16800 5050
+Wire Wire Line
+	16400 5050 11100 5050
+Wire Wire Line
+	11100 5050 11100 5000
+Wire Wire Line
+	11100 5000 11000 5000
+$Comp
+L Jumper:Jumper_2_Bridged J45
+U 1 1 61047AB4
+P 16600 5250
+F 0 "J45" H 16600 5353 50  0000 C CNN
+F 1 "~" H 16600 5354 50  0000 C CNN
+F 2 "" H 16600 5250 50  0001 C CNN
+F 3 "~" H 16600 5250 50  0001 C CNN
+	1    16600 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16800 5250 16900 5250
+Wire Wire Line
+	16900 5250 16900 5050
+Connection ~ 16900 5050
+Wire Wire Line
+	16400 5250 13250 5250
+Wire Wire Line
+	13250 5250 13250 6150
+Wire Wire Line
+	13250 6150 6500 6150
+Wire Wire Line
+	6500 6150 6500 5000
+Wire Wire Line
+	6500 5000 5800 5000
+$Comp
+L Jumper:Jumper_2_Bridged J40
+U 1 1 6104EC3B
+P 16600 5500
+F 0 "J40" H 16600 5603 50  0000 C CNN
+F 1 "~" H 16600 5604 50  0000 C CNN
+F 2 "" H 16600 5500 50  0001 C CNN
+F 3 "~" H 16600 5500 50  0001 C CNN
+	1    16600 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16800 5500 16900 5500
+Wire Wire Line
+	16900 5500 16900 5250
+Connection ~ 16900 5250
+Wire Wire Line
+	16400 5500 12900 5500
+Wire Wire Line
+	12900 5500 12900 7000
+Wire Wire Line
+	12900 7000 4300 7000
+Wire Wire Line
+	4300 7000 4300 5000
+Wire Wire Line
+	4300 5000 3950 5000
+Wire Wire Line
+	19350 5000 19350 3400
+Wire Wire Line
+	19350 3400 22600 3400
+Connection ~ 19350 5000
+Wire Wire Line
+	19350 5000 16900 5000
+$Comp
+L Jumper:Jumper_2_Bridged J36
+U 1 1 6105B99C
+P 18250 5250
+F 0 "J36" H 18250 5353 50  0000 C CNN
+F 1 "~" H 18250 5354 50  0000 C CNN
+F 2 "" H 18250 5250 50  0001 C CNN
+F 3 "~" H 18250 5250 50  0001 C CNN
+	1    18250 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19850 5300 19000 5300
+Wire Wire Line
+	18600 5300 18600 5250
+Wire Wire Line
+	18600 5250 18450 5250
+Wire Wire Line
+	18050 5250 17350 5250
+Wire Wire Line
+	17350 5250 17350 6200
+Wire Wire Line
+	17350 6200 15700 6200
+Wire Wire Line
+	15700 6200 15700 15700
+Wire Wire Line
+	15700 15700 16000 15700
+$Comp
+L Jumper:Jumper_2_Bridged J46
+U 1 1 61065392
+P 18250 5450
+F 0 "J46" H 18250 5553 50  0000 C CNN
+F 1 "~" H 18250 5554 50  0000 C CNN
+F 2 "" H 18250 5450 50  0001 C CNN
+F 3 "~" H 18250 5450 50  0001 C CNN
+	1    18250 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18450 5450 18600 5450
+Wire Wire Line
+	18600 5450 18600 5300
+Connection ~ 18600 5300
+Wire Wire Line
+	18050 5450 17050 5450
+Wire Wire Line
+	17050 5450 17050 6050
+Wire Wire Line
+	17050 6050 15450 6050
+Wire Wire Line
+	15450 6050 15450 12150
+Wire Wire Line
+	15450 12150 7450 12150
+Wire Wire Line
+	7450 12150 7450 16550
+Wire Wire Line
+	7450 16550 7700 16550
+$Comp
+L Jumper:Jumper_2_Bridged J41
+U 1 1 6108A63C
+P 18250 5650
+F 0 "J41" H 18250 5753 50  0000 C CNN
+F 1 "~" H 18250 5754 50  0000 C CNN
+F 2 "" H 18250 5650 50  0001 C CNN
+F 3 "~" H 18250 5650 50  0001 C CNN
+	1    18250 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18450 5650 18600 5650
+Wire Wire Line
+	18600 5650 18600 5450
+Connection ~ 18600 5450
+Wire Wire Line
+	18050 5650 16450 5650
+Wire Wire Line
+	16450 5650 16450 8450
+Wire Wire Line
+	16450 8450 3850 8450
+Wire Wire Line
+	3850 8450 3850 16300
+Wire Wire Line
+	3850 16300 4300 16300
+Wire Wire Line
+	19000 5300 19000 3300
+Wire Wire Line
+	19000 3300 22600 3300
+Connection ~ 19000 5300
+Wire Wire Line
+	19000 5300 18600 5300
+Wire Wire Line
+	19850 5600 19200 5600
+Wire Wire Line
+	18700 5600 18700 9050
+Wire Wire Line
+	18700 9050 16400 9050
+Wire Wire Line
+	16400 9050 16400 14300
+Wire Wire Line
+	16400 14300 15050 14300
+Wire Wire Line
+	15050 14300 15050 16300
+Wire Wire Line
+	15050 16300 16000 16300
+Wire Wire Line
+	15050 16300 9500 16300
+Wire Wire Line
+	9500 16300 9500 17500
+Wire Wire Line
+	9500 17500 7450 17500
+Wire Wire Line
+	7450 17500 7450 17150
+Wire Wire Line
+	7450 17150 7700 17150
+Connection ~ 15050 16300
+Wire Wire Line
+	7450 17500 4100 17500
+Wire Wire Line
+	4100 17500 4100 16900
+Wire Wire Line
+	4100 16900 4300 16900
+Connection ~ 7450 17500
+Wire Wire Line
+	19200 5600 19200 3100
+Wire Wire Line
+	19200 3100 22600 3100
+Connection ~ 19200 5600
+Wire Wire Line
+	19200 5600 18700 5600
 $EndSCHEMATC
