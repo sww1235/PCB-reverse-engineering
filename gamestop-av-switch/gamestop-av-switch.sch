@@ -1455,4 +1455,6 @@ Wire Wire Line
 	30950 10350 31950 10350
 Wire Wire Line
 	31750 9150 41750 9150
+Text Notes 32750 2950 0    50   ~ 0
+Switches are mechanically linked\nso depressing one pair of switches\nunpresses the other switches.
 $EndSCHEMATC
