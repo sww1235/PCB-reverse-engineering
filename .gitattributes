@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# fix language detection bias towards programming languages
+*.kicad_pcb linguist-detectable
+*.sch linguist-detectable
