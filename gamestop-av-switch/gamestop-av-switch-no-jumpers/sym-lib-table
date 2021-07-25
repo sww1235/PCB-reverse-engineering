@@ -1,0 +1,9 @@
+(sym_lib_table
+  (lib (name power)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/power.lib)(options "")(descr ""))
+  (lib (name Mechanical)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Mechanical.lib)(options "")(descr ""))
+  (lib (name Connector_Generic)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Connector_Generic.lib)(options "")(descr ""))
+  (lib (name Connector)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Connector.lib)(options "")(descr ""))
+  (lib (name SW-con)(type Legacy)(uri ${KISWWLIBRARIES}/SW-con.lib)(options "")(descr ""))
+  (lib (name Jumper)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Jumper.lib)(options "")(descr ""))
+  (lib (name SW-gElectroMech)(type Legacy)(uri ${KISWWLIBRARIES}/SW-gElectroMech.lib)(options "")(descr ""))
+)
