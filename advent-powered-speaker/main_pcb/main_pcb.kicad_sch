@@ -11799,7 +11799,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23759c91-79f2-4328-a0ae-fd27e185a16e")
-		(property "Reference" "Q?"
+		(property "Reference" "Q16"
 			(at 415.29 377.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11877,7 +11877,7 @@
 		(instances
 			(project "main_pcb"
 				(path "/59986deb-8fca-4720-9445-aa41ddfde149"
-					(reference "Q?")
+					(reference "Q16")
 					(unit 1)
 				)
 			)
@@ -13367,7 +13367,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48a42da7-0bfe-4324-94f8-f58ba1a69308")
-		(property "Reference" "C?"
+		(property "Reference" "C17"
 			(at 709.93 542.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13429,7 +13429,7 @@
 		(instances
 			(project "main_pcb"
 				(path "/59986deb-8fca-4720-9445-aa41ddfde149"
-					(reference "C?")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -14382,7 +14382,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f328ea3-f058-4468-b4c7-1afac31f75cc")
-		(property "Reference" "Q?"
+		(property "Reference" "Q15"
 			(at 680.72 518.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14460,7 +14460,7 @@
 		(instances
 			(project "main_pcb"
 				(path "/59986deb-8fca-4720-9445-aa41ddfde149"
-					(reference "Q?")
+					(reference "Q15")
 					(unit 1)
 				)
 			)
@@ -15006,7 +15006,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66f3c647-ce48-4b1b-b54c-54ca15966066")
-		(property "Reference" "Q?"
+		(property "Reference" "Q3"
 			(at 599.44 482.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15084,7 +15084,7 @@
 		(instances
 			(project "main_pcb"
 				(path "/59986deb-8fca-4720-9445-aa41ddfde149"
-					(reference "Q?")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -21510,7 +21510,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d62ad8d3-515c-4406-b190-f413219d1148")
-		(property "Reference" "Q?"
+		(property "Reference" "Q17"
 			(at 443.23 393.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21588,7 +21588,7 @@
 		(instances
 			(project "main_pcb"
 				(path "/59986deb-8fca-4720-9445-aa41ddfde149"
-					(reference "Q?")
+					(reference "Q17")
 					(unit 1)
 				)
 			)
