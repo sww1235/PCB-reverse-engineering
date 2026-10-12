@@ -11221,7 +11221,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "162404fa-b58c-40b3-be29-cdebdf535873")
-		(property "Reference" "BASE_NEG"
+		(property "Reference" "EXT3"
 			(at 438.15 495.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11232,7 +11232,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x01"
+		(property "Value" "BASE_NEG"
 			(at 438.15 497.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11293,7 +11293,7 @@
 		(instances
 			(project "main_pcb"
 				(path "/59986deb-8fca-4720-9445-aa41ddfde149"
-					(reference "BASE_NEG")
+					(reference "EXT3")
 					(unit 1)
 				)
 			)
@@ -12825,7 +12825,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39caf4fb-2062-473c-9505-bcc837fe818a")
-		(property "Reference" "BASE_POS"
+		(property "Reference" "EXT6"
 			(at 721.36 645.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12836,7 +12836,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x01"
+		(property "Value" "BASE_POS"
 			(at 721.36 647.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12897,7 +12897,7 @@
 		(instances
 			(project "main_pcb"
 				(path "/59986deb-8fca-4720-9445-aa41ddfde149"
-					(reference "BASE_POS")
+					(reference "EXT6")
 					(unit 1)
 				)
 			)
@@ -15962,7 +15962,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71a94531-0374-4ad5-bbbd-06e0011c863e")
-		(property "Reference" "TREB_NEG"
+		(property "Reference" "EXT4"
 			(at 438.15 507.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15973,7 +15973,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x01"
+		(property "Value" "TREB_NEG"
 			(at 438.15 510.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16034,7 +16034,7 @@
 		(instances
 			(project "main_pcb"
 				(path "/59986deb-8fca-4720-9445-aa41ddfde149"
-					(reference "TREB_NEG")
+					(reference "EXT4")
 					(unit 1)
 				)
 			)
@@ -16053,7 +16053,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71dd0d6e-86cd-4fa6-93ba-f7dd9f81c7cc")
-		(property "Reference" "J?"
+		(property "Reference" "EXT1"
 			(at 791.21 488.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16127,7 +16127,7 @@
 		(instances
 			(project "main_pcb"
 				(path "/59986deb-8fca-4720-9445-aa41ddfde149"
-					(reference "J?")
+					(reference "EXT1")
 					(unit 1)
 				)
 			)
@@ -18091,7 +18091,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "945ebae1-99b6-4c4f-aefd-634e28704fdc")
-		(property "Reference" "H?"
+		(property "Reference" "H1"
 			(at 463.55 311.15 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18150,7 +18150,7 @@
 		(instances
 			(project "main_pcb"
 				(path "/59986deb-8fca-4720-9445-aa41ddfde149"
-					(reference "H?")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -18328,7 +18328,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97d61d44-f158-4b02-bfa3-36f18e5da6d6")
-		(property "Reference" "FUSE"
+		(property "Reference" "F1"
 			(at 449.58 274.32 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18390,7 +18390,7 @@
 		(instances
 			(project "main_pcb"
 				(path "/59986deb-8fca-4720-9445-aa41ddfde149"
-					(reference "FUSE")
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -20425,7 +20425,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bfd51624-7c10-4a23-8079-495b5167c796")
-		(property "Reference" "A"
+		(property "Reference" "J30"
 			(at 398.78 589.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20435,7 +20435,7 @@
 				)
 			)
 		)
-		(property "Value" "wire"
+		(property "Value" "A"
 			(at 398.78 591.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20487,7 +20487,7 @@
 		(instances
 			(project "main_pcb"
 				(path "/59986deb-8fca-4720-9445-aa41ddfde149"
-					(reference "A")
+					(reference "J30")
 					(unit 1)
 				)
 			)
@@ -20607,7 +20607,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c992451b-e24d-4cb3-9f52-14cf019e5125")
-		(property "Reference" "TREB_POS"
+		(property "Reference" "EXT5"
 			(at 721.36 636.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20618,7 +20618,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x01"
+		(property "Value" "TREB_POS"
 			(at 721.36 638.8099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20679,7 +20679,7 @@
 		(instances
 			(project "main_pcb"
 				(path "/59986deb-8fca-4720-9445-aa41ddfde149"
-					(reference "TREB_POS")
+					(reference "EXT5")
 					(unit 1)
 				)
 			)
@@ -22277,7 +22277,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e665089e-6334-43ff-9bc3-a30d18bc1757")
-		(property "Reference" "J?"
+		(property "Reference" "EXT2"
 			(at 887.73 877.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22352,7 +22352,7 @@
 		(instances
 			(project "main_pcb"
 				(path "/59986deb-8fca-4720-9445-aa41ddfde149"
-					(reference "J?")
+					(reference "EXT2")
 					(unit 1)
 				)
 			)
